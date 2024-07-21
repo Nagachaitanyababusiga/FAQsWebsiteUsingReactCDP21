@@ -1,0 +1,46 @@
+.list-itm-card {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  border: 1px #d7dae6 solid;
+  border-radius: 8px;
+  width: 100%;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.lst-itm-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.hrline {
+  width: 100%;
+  border: 1px #d7dae6 solid;
+}
+.hidden-text-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.questionText {
+  color: #52606d;
+  font-size: 20px;
+}
+.answerText {
+  color: #9aa5b1;
+  font-size: 12px;
+}
+.onlybtn {
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+  background-color: transparent;
+}
+@media (max-width: 767px) {
+}
